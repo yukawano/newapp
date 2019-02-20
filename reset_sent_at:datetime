@@ -1,0 +1,2 @@
+Could not find generator 'migrationadd_reset_to_users'. Maybe you meant 'migration', 'integration_test' or 'resource_route'
+Run `rails generate --help` for more options.
