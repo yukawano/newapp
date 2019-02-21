@@ -72,7 +72,7 @@ class User < ApplicationRecord
   # 完全な実装は次章の「ユーザーをフォローする」を参照
   def feed
     Microposts.where(" user_id = ?",id )
-
+  end
   private
 
     # メールアドレスをすべて小文字にする
